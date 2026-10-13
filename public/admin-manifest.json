@@ -2,7 +2,6 @@
   "id": "/admin/",
   "name": "Sevana Admin",
   "short_name": "Sevana Admin",
-  "description": "Sevana administration panel",
   "start_url": "/admin/",
   "scope": "/admin/",
   "display": "standalone",
