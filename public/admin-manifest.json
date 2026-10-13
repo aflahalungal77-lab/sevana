@@ -1,0 +1,19 @@
+{
+  "id": "/admin/",
+  "name": "Sevana Admin",
+  "short_name": "Sevana Admin",
+  "description": "Sevana administration panel",
+  "start_url": "/admin/",
+  "scope": "/admin/",
+  "display": "standalone",
+  "background_color": "#f7faf7",
+  "theme_color": "#17633a",
+  "icons": [
+    {
+      "src": "/sevana-admin-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
