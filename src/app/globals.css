@@ -5289,3 +5289,72 @@ select.field-control {
   .sevana-home .sevana-hero-symbol svg { width: 27px; height: 27px; }
   .sevana-home .sevana-compact-hero .sevana-hero-copy > p { font-size: 12px; }
 }
+
+
+
+.home-header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.sevana-language-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 11px;
+  border: 1px solid #dce8df;
+  border-radius: 999px;
+  background: #f0f7f1;
+  color: #17633a;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 650;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.sevana-language-toggle:hover {
+  background: #e2f0e5;
+  border-color: #a9cbb2;
+}
+
+.sevana-language-toggle:active {
+  transform: scale(0.97);
+}
+
+.sevana-language-toggle:focus-visible {
+  outline: 2px solid #17633a;
+  outline-offset: 3px;
+}
+
+.sevana-language-toggle:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+@media (max-width: 380px) {
+  .home-header-actions {
+    gap: 5px;
+  }
+
+  .sevana-language-toggle {
+    gap: 4px;
+    padding: 0 8px;
+    font-size: 11px;
+  }
+
+  .home-about-button {
+    gap: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
